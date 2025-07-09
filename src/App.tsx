@@ -89,7 +89,7 @@ export const App: React.FC = () => {
         </div>
       </div>
 
-      {currentTodoId && (
+      {currentTodoId !== null && (
         <TodoModal
           todo={todos.find(todo => todo.id === currentTodoId) as Todo}
           onClose={handleClose}

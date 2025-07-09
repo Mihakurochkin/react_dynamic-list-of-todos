@@ -1,6 +1,6 @@
 type Props = {
-  onSearchInputChange: (sortType: string) => void;
-  onFilterTypeChange: (sortInput: string) => void;
+  onSearchInputChange: (searchInput: string) => void;
+  onFilterTypeChange: (filterType: string) => void;
   searchInput: string;
 };
 
